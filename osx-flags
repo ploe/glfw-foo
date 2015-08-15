@@ -1,0 +1,1 @@
+`pkg-config glfw3 --cflags --libs` -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo
