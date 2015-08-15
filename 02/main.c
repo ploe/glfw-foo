@@ -84,11 +84,11 @@ int main() {
 		glfwTerminate();
 		return -1;
 	}
-	glfwSetKeyCallback(window, KEYBOARD);
-
-	init();
 
 	glfwMakeContextCurrent(window);
+	glfwSetKeyCallback(window, KEYBOARD);
+	init();
+
 
 	while (!glfwWindowShouldClose(window)) {
 		render();
